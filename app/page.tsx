@@ -3,13 +3,15 @@ import Image from "next/image";
 export default function Home() {
   return (
  <div>
-  <div className="bg-[url('/bg.png')] h-screen w-full bg-center bg-cover">
-  <img className="w-150 absolute right-17 bottom-50" src="/foto3.png" alt="" />
-  <div className="absolute left-60 top-70 w-200 border-sky-200 p-10 border-5 rounded-4xl bg-white shadow-xl">
+  <div className="bg-[url('/bg.png')] h-screen w-full bg-center bg-cover flex">
+  <div className="max-w-200 border-sky-200 p-10 border-5 rounded-4xl bg-white shadow-xl h-80 mx-auto mt-70">
   <h1 className=" text-6xl font-black text-sky-600">Hello Everyone</h1>
   <h2 className="text-5xl font-black text-sky-600">Iam Wildan</h2>
   <p className="text-sky-500 font-bold text-1xl mt-2">A 17 year old student from Kediri, currently studying Software Engineering at SMK Telkom Malang. Focused on frontend development, with experience in graphic design gained through extracurricular activities, school assignments,
      and various creative, modern, and responsive web projects, emphasizing user experience, problem solving, teamwork, and continuous skill improvement.</p>
+  </div>
+  <div className="mx-auto">
+  <img className="w-full max-w-150" src="/foto3.png" alt="" />
   </div>
   </div>
 
