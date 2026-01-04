@@ -22,21 +22,27 @@ export default function Home() {
     <div className="flex space-x-10">
       <div className="bg-white w-1/3 p-5 rounded-4xl border-5 border-sky-600">
         <div className="flex">
-        <img className="bg-sky-300 p-3 w-16 rounded-2xl" src="/logo.png" alt="" />
+          <div className="w-16">
+        <img className="bg-sky-300 p-3 w-full rounded-2xl" src="/logo.png" alt="" />
+          </div>
         <h1 className="text-3xl font-bold text-sky-600 my-auto ml-3">Business Idea Development</h1>
         </div>
         <p className="text-sky-500 font-semibold mt-2">Contributed to a school business project by developing innovative business ideas, acting as a hipster and data researcher, analyzing market references, and delivering a well-structured pitch deck ready for professional presentation.</p>
       </div>
       <div className="bg-white w-1/3 p-5 rounded-4xl border-5 border-sky-600">
         <div className="flex">
-        <img className="bg-sky-300 p-3 w-16 rounded-2xl" src="/logo1.png" alt="" />
+          <div className="w-16">
+        <img className="bg-sky-300 p-3 w-full rounded-2xl" src="/logo1.png" alt="" />
+          </div>
         <h1 className="text-3xl font-bold text-sky-600 my-auto ml-3">University Design Competition</h1>
         </div>
         <p className="text-sky-500 font-semibold mt-2">Won a digital poster graphic design competition held by Universitas Negeri Malang, organized by Bumantara Student Press Organization and the Student Executive Board of the Faculty of Social Sciences successfully.</p>
       </div>
       <div className="bg-white w-1/3 p-5 rounded-4xl border-5 border-sky-600">
         <div className="flex">
-        <img className="bg-sky-300 p-3 w-16 rounded-2xl" src="/logo2.png" alt="" />
+          <div className="w-16">
+        <img className="bg-sky-300 p-3 w-full rounded-2xl" src="/logo2.png" alt="" />
+          </div>
         <h1 className="text-3xl font-bold text-sky-600 my-auto ml-3">Co-Curricular Involvement</h1>
         </div>
         <p className="text-sky-500 font-semibold mt-2">Contributed to a school co-curricular program, Moklet Serve, by serving as an event organizer, speaker, and designer, actively supporting program planning, public communication, teamwork, and creative visual development throughout the activity.</p>
@@ -48,7 +54,7 @@ export default function Home() {
   <div className="my-auto mx-auto">
     <img className="w-170 rounded-4xl" src="foto2.png" alt="" />
   </div>
-    <div className="my-auto mx-auto">
+    <div className="my-auto mx-auto ">
     <div className="flex space-x-3 mb-10">
     <div className="bg-white w-125 p-4 border-sky-200 border-5 rounded-4xl shadow-xl">
       <h1 className="text-4xl font-bold text-sky-600">Personal Data</h1>
