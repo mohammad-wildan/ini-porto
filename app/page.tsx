@@ -51,10 +51,10 @@ export default function Home() {
     <div className="my-auto mx-auto">
     <div className="flex space-x-3 mb-10">
     <div className="bg-white w-125 p-4 border-sky-200 border-5 rounded-4xl shadow-xl">
-      <h1 className="text-4xl font-bold text-sky-600">Data Diri</h1>
-      <p className="text-2xl font-bold text-sky-500">Nama: Mohammad Wildan Syaiful Amri</p>
-      <p className="text-2xl font-bold text-sky-500">Umur: 17 (tujuh belas)</p>
-      <p className="text-2xl font-bold text-sky-500">Kota asal: Kediri</p>
+      <h1 className="text-4xl font-bold text-sky-600">Personal Data</h1>
+      <p className="text-2xl font-bold text-sky-500">Name: Mohammad Wildan Syaiful Amri</p>
+      <p className="text-2xl font-bold text-sky-500">Old: 17 (tujuh belas)</p>
+      <p className="text-2xl font-bold text-sky-500">Hometown: Kediri</p>
     </div>
     <div className="bg-white w-125 p-4 border-sky-200 border-5 rounded-4xl shadow-xl">
       <h1 className="text-4xl font-bold text-sky-600">Contact</h1>
@@ -64,7 +64,7 @@ export default function Home() {
     </div>
     </div>
     <div className="bg-white w-250 p-4 border-sky-200 border-5 rounded-4xl shadow-xl mx-auto">
-      <h1 className="text-center text-5xl font-bold text-sky-600 mb-5">Riwayat Pendidikan</h1>
+      <h1 className="text-center text-5xl font-bold text-sky-600 mb-5">Educational Background</h1>
       <div className="flex mx-auto">
       <div className="w-1/3">
       <img className="w-35 mx-auto" src="sekolah.png" alt="" />
@@ -93,25 +93,19 @@ export default function Home() {
   </h1>
 
   <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
-
     <div>
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center lg:text-left">
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">
         UI/UX Design
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <img
-          className="w-full rounded-2xl p-2 bg-white shadow-xl" src="gambar2.png" alt=""
-        />
-        <img className="w-full rounded-2xl p-2 bg-white shadow-xl" src="gambar1.png" alt=""
-        />
+        <img className="w-full rounded-2xl p-2 bg-white shadow-xl" src="gambar2.png" alt=""/>
+        <img className="w-full rounded-2xl p-2 bg-white shadow-xl" src="gambar1.png" alt=""/>
       </div>
     </div>
-
     <div>
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center lg:text-left">
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">
         Design Graphic
       </h2>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <img className="w-full rounded-2xl p-2 bg-white shadow-xl" src="Instagram post - 1.png" alt="" />
         <img className="w-full rounded-2xl p-2 bg-white shadow-xl" src="Instagram post - 2.png" alt="" />
